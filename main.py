@@ -49,7 +49,7 @@ bot = Client(
     "bot",
     api_id=26797881,
     api_hash="9699262c708c2e45ba18bfce925ed5ed",
-    bot_token="7734880223:AAGBYUTAj4yKG9S9pe9jmDFQ4SS5Cbz7jNE"
+    bot_token="7734880223:AAGz8xu0YMFNwO2jAvcuzE-LuP2eNsBW57E"
 )
 
 @bot.on_message(filters.command(["start"]))
@@ -72,7 +72,7 @@ async def start(bot, message):
 
   await message.reply_photo(
     photo=random_image_url,
-    caption="**Developer - @pwextractowner\nPLEASE👇PRESS👇HERE**",
+    caption="**Developer - @casauravs\nPLEASE👇PRESS👇HERE**",
     quote=True,
     reply_markup=reply_markup
   )
